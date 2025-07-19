@@ -2,9 +2,16 @@ package com.felipe.despesas.model;
 
 import jakarta.persistence.*;
 
+
 @Entity
+@Table(name = "categorias")
 public class Categoria {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Long id;
+
     private String nome;
 
 
@@ -16,11 +23,11 @@ public class Categoria {
         this.id = id;
     }
 
-    public String getName(){
+    public String getNome(){
         return nome;
     }
 
-    public void setName(String nome){
+    public void setNome(String nome){
         this.nome = nome;
     }
 }
