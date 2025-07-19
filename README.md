@@ -29,36 +29,9 @@ API REST desenvolvida em **Spring Boot** para o controle de despesas pessoais, c
 
 ---
 
-## 🗂️ Estrutura do Projeto
-
-src/
-├── controller/ # Endpoints da API
-├── model/ # Entidades JPA (Despesa, Categoria)
-├── repository/ # Interfaces de acesso ao banco
-├── service/ # Regras de negócio
-└── DespesasApplication.java
-
-
----
-
-## 🧪 Exemplo de JSON (POST de Despesa)
-
-```json
-{
-  "descricao": "Conta de Luz",
-  "valor": 210.50,
-  "data": "2025-07-18",
-  "categoria": {
-    "id": 1
-  }
-}
-
-```
-
-
-📌 Autor
-Desenvolvido por Felipe de Oliveira Romeiro Amais
-Acadêmico de Ciência da Computação - UNIPAR
+# 📌 Autor  
+Desenvolvido por Felipe de Oliveira Romeiro Amais  
+Acadêmico de Ciência da Computação - UNIPAR  
 https://github.com/FelipeAmais
 
 📈 Futuras melhorias
