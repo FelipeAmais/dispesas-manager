@@ -55,70 +55,11 @@ src/
 
 ```
 
-⚙️ Como rodar o projeto localmente
-Clone o repositório
-
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/despesas-api.git
-cd despesas-api
-Configure o banco MySQL
-
-Crie um banco chamado despesas (ou outro nome e altere no application.properties)
-
-Exemplo no MySQL:
-
-sql
-Copiar
-Editar
-CREATE DATABASE despesas;
-Configure o application.properties
-
-properties
-Copiar
-Editar
-spring.datasource.url=jdbc:mysql://localhost:3306/despesas
-spring.datasource.username=seu_usuario
-spring.datasource.password=sua_senha
-
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-Execute com Maven
-
-bash
-Copiar
-Editar
-./mvnw spring-boot:run
-Ou no Windows:
-
-bash
-Copiar
-Editar
-mvn spring-boot:run
-Acesse a API:
-
-bash
-Copiar
-Editar
-http://localhost:8080/despesas
-http://localhost:8080/categorias
-📥 Endpoints principais
-Método	Endpoint	Descrição
-GET	/despesas	Lista todas as despesas
-POST	/despesas	Cria uma nova despesa
-PUT	/despesas	Atualiza uma despesa existente
-DELETE	/despesas/{id}	Exclui uma despesa pelo ID
-GET	/categorias	Lista todas as categorias
-POST	/categorias	Cria uma nova categoria
-PUT	/categorias	Atualiza uma categoria existente
-DELETE	/categorias/{id}	Exclui uma categoria pelo ID
 
 📌 Autor
 Desenvolvido por Felipe de Oliveira Romeiro Amais
 Acadêmico de Ciência da Computação - UNIPAR
-LinkedIn
-GitHub
+https://github.com/FelipeAmais
 
 📈 Futuras melhorias
 🔐 Autenticação com Spring Security + JWT
