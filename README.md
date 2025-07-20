@@ -36,7 +36,7 @@ https://github.com/FelipeAmais
 
 ---
 
-📈 Futuras melhorias
+## 📈 Futuras melhorias  
 🔐 Autenticação com Spring Security + JWT
 
 📊 Filtros por data e categoria
