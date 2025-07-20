@@ -34,6 +34,8 @@ Desenvolvido por Felipe de Oliveira Romeiro Amais
 Acadêmico de Ciência da Computação - UNIPAR  
 https://github.com/FelipeAmais
 
+---
+
 📈 Futuras melhorias
 🔐 Autenticação com Spring Security + JWT
 
