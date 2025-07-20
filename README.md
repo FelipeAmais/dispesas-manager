@@ -9,9 +9,9 @@ API REST desenvolvida em **Spring Boot** para o controle de despesas pessoais, c
 - ✅ Cadastro de **categorias de despesas**
 - ✅ Cadastro de **despesas**, vinculadas a uma categoria
 - ✅ Edição, listagem e exclusão de categorias e despesas
-- ✅ Relacionamento entre entidades (Despesas possuem uma Categoria)
+- ✅ Relacionamento entre entidades
 - ✅ Tratamento básico de erros
-- ✅ Separação entre Controller, Service e Repository (boas práticas)
+- ✅ Separação entre Controller, Service e Repository
 - ✅ Testado com Postman
 
 ---
@@ -24,7 +24,6 @@ API REST desenvolvida em **Spring Boot** para o controle de despesas pessoais, c
 - ✅ Spring Data JPA
 - ✅ MySQL 8
 - ✅ Hibernate ORM
-- ✅ Lombok (opcional)
 - ✅ Postman (para testes)
 
 ---
