@@ -11,11 +11,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.CrossOrigin;
+
 import org.springframework.http.HttpStatus;
 
 import com.felipe.despesas.model.Categoria;
 import com.felipe.despesas.services.CategoriaService;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/categorias")
 public class CategoriaController {
