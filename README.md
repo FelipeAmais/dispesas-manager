@@ -31,7 +31,7 @@ API REST desenvolvida em **Spring Boot** para o controle de despesas pessoais, c
 
 ### 📌 Autor  
 Desenvolvido por Felipe de Oliveira Romeiro Amais  
-Acadêmico de Ciência da Computação - UNIPAR  
+Acadêmico de Sistemas de Informação - UNIPAR  
 https://github.com/FelipeAmais
 
 ---
