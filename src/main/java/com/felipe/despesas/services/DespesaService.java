@@ -21,7 +21,6 @@ public class DespesaService {
     }
 
     public Despesa criarDespesa(Despesa despesa) {
-        // Aqui você pode adicionar regras de negócio ou validações
         return despesaRepository.save(despesa);
     }
 
